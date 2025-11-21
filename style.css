@@ -1,0 +1,8 @@
+.container .main-content {
+    width: 100%;
+    max-width: 550px;
+}
+
+.container {
+    width: 100%;
+}
