@@ -6,7 +6,7 @@ function convertKilometersToMiles() {
 if (isNaN(kilometersInput) || kilometersInput === '') {
     result.style.color = "red";
     result.innerHTML = `<h5>Please enter a valid number for kilometers.</h5>`;
-    }else {
+    } else {
     result.innerHTML = `<h5>${kilometersInput} kilometers is equal to ${miles.toFixed(2)} miles.</h5>`;
     }
 }
